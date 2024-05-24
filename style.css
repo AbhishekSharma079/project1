@@ -6,8 +6,8 @@
 .navbar {
     height:72px;
     
-    background-color: #0f1111;
-    color:#f6c5c5;
+    background-color: black;
+    color:whitesmoke;
     display :flex;
     align-items: center;
     justify-content: space-evenly;
