@@ -1,0 +1,99 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   font-family: sans-serif; 
+}
+
+
+.container{
+    background:rgb(247, 243, 243);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+
+}
+.logo{
+    color:rgb(10, 10, 10);
+    font-size: 35px;
+    padding-left: 20px;
+    float:left;
+    cursor:pointer;
+
+}
+nav{
+    display:flex;
+    align-items: center;
+    padding:20px 8%;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style:none;
+    display:inline-block;
+    
+    margin:0 20px;
+
+}
+
+nav ul li a{
+    color:rgb(10, 9, 10);
+    text-decoration: none;
+}
+
+button{
+    cursor:pointer;
+    background:rgb(254, 249, 249);
+    height:30px;
+    width: 60px;
+    border-radius: 22px;
+    border: 0;
+    outline: 0;
+}
+button span{
+    background: #242323;
+    display:block;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 3px;
+}
+.active{
+    background-color:rgb(19, 142, 19);
+}
+.active span{
+    background:white;
+    margin-left: 33px;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color:rgb(0, 0, 0);
+    font-size:55px;
+    cursor:pointer;
+}
+.button{
+    position: absolute;
+    top: 50% ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+border: 1px solid rgb(0, 0, 0);
+padding: 5px 20px;
+color:rgb(42, 165, 153);
+font-size:18px;
+text-decoration: none;
+transition:0.4s ease;
+
+}
+.btn:hover{
+    background-color: #010000;
+    color:chartreuse;
+}
